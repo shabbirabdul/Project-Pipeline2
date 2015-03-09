@@ -7,3 +7,10 @@ Junit test cases are run after mvn compile. We are using the sonarQube tool to g
 2. Improve Testing Coverage
 
 For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for class in the project.
+
+3. Run Static Analysis
+
+We have used sonarQube for static analysis of code. Every detail of the code such as number of functions, lines, directories, files, classes, statements  and accessors are tracked. SonarQube also provides SQALE ranking that tells how well a particular class or a component is written. It also tells what is the complexity /function, /file, /class.
+In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
+
+
