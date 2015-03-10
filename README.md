@@ -33,7 +33,10 @@ We also used Cobertura for code coverage. The screenshot explains various aspect
 
 We have used sonarQube for static analysis of code. Every detail of the code such as number of functions, lines, directories, files, classes, statements  and accessors are tracked. SonarQube also provides SQALE ranking that tells how well a particular class or a component is written. It also tells what is the complexity /function, /file, /class. In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
 
+Sonar identifies problematic parts of the code, classifies them into minor, critical, major etc. Giving an idea for the developer to prioritize solving bugs in the code. 
+
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0670/fb0cdb76-c6c1-11e4-8f3c-ec7d61cd89d0.png)
+
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0671/fe2183a2-c6c1-11e4-962f-ad661b00c8dd.png)
 
