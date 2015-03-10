@@ -20,6 +20,8 @@ In addition to this, sonar also provides technical issues in the code. It will c
 
 #### Extended analysis
 
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0665/f1f90d50-c6af-11e4-9320-9cab305c9a12.png)
+
 ### Reject commit based on testing and analysis result
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0663/f0e0f62c-c6a4-11e4-9e46-5a195d54adc6.png)
