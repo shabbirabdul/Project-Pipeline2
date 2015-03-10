@@ -28,6 +28,12 @@ We have used sonarQube for static analysis of code. Every detail of the code suc
 
 In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
 
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0670/fb0cdb76-c6c1-11e4-8f3c-ec7d61cd89d0.png)
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0671/fe2183a2-c6c1-11e4-962f-ad661b00c8dd.png)
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0672/00f256b0-c6c2-11e4-84e2-796c39e354bc.png)
+
 #### Task 4: Extended analysis
 
 We have developed a static analysis tool that generates the number of lines of comments, code and ratio of comments to code. We have integrated it with Jenkins build, during the build this plugin is run with the path to source code as an argument. The jar file scrapes through all Java files and counts number of comments and lines in the code. The following screen shot shows comment ratio captured during jenkins build.
