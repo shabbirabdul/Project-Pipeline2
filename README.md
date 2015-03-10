@@ -11,6 +11,12 @@ The Jenkins sonarQube plugin displays the code coverage report on the respective
 
 For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for class in the project.
 
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0667/23c959be-c6bc-11e4-9cb9-efc849e4f356.png)
+
+Report after improvement:
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0666/1fa2dcfc-c6bc-11e4-9f13-68d9e6eec570.png)
+
 ### Analysis
 #### Run Static Analysis
 
@@ -23,6 +29,8 @@ In addition to this, sonar also provides technical issues in the code. It will c
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0665/f1f90d50-c6af-11e4-9320-9cab305c9a12.png)
 
 ### Reject commit based on testing and analysis result
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0668/2685b526-c6bc-11e4-85be-8b2b2bf2bbc0.png)
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0663/f0e0f62c-c6a4-11e4-9e46-5a195d54adc6.png)
 
