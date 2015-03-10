@@ -1,4 +1,4 @@
-# DevOps project
+# DevOps Milestone 2: Test and Analysis
  
 ### Test
 #### Task 1: Run Test Cases, Measure Code Coverage, Publish Reports 
