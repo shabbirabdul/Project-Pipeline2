@@ -58,9 +58,7 @@ Github link for Comments Analyzer Tool: https://github.com/shabbirabdul/Comments
 
 Cobertura Gate
 
-The Cobertura Jenkins Plugin allows us to reject a build if the code coverage falls beyond the mentioned threshold. The screenshot below describes the cobertura threshold used in this project that causes the build to fail due to low coverage.
-
-The following screenshot specifies the threshold conditions set on this particular project.
+The Cobertura Jenkins Plugin allows us to reject a build if the code coverage falls beyond the mentioned threshold. The screenshot below describes the cobertura threshold used in this project that causes the build to fail due to low coverage.The following screenshot specifies the threshold conditions set on this particular project.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0668/2685b526-c6bc-11e4-85be-8b2b2bf2bbc0.png)
 
