@@ -7,7 +7,7 @@ Junit test cases are run after mvn compile. We are using the sonarQube tool to g
 
 The Jenkins sonarQube plugin displays the code coverage report on the respective Jenkins Job Page.
 
-[!alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
+[!Alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
 
 #### Improve Testing Coverage
 
