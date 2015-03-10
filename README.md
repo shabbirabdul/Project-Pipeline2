@@ -14,22 +14,24 @@ Github link of the project: https://github.com/shabbirabdul/LilyPadCompass
 
 Test coverage before improvement:
 
-Few Java classes were added to the project and test coverage is checked.
+Few Java classes were added to the project and test coverage is measured.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0667/23c959be-c6bc-11e4-9cb9-efc849e4f356.png)
 
-Report after improvement:
+Test coverage after improvement:
 
 CodePro is a random test case generating tool, which when used with a project will generate test cases for every class in the project. The test classes generated have names ending with Test and all the test cases generated are available under src/test/java under the same project.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0669/ad4711d0-c6bd-11e4-8d74-ceeb9cc66126.png)
 
+We also used Cobertura for code coverage. The screenshot explains various aspects of code coverage captured by Cobertura.
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0673/9f5f5a14-c6c2-11e4-84a0-4eb5ad488c91.png)
+
 ### Analysis
 #### Task 3: Run Static Analysis
 
-We have used sonarQube for static analysis of code. Every detail of the code such as number of functions, lines, directories, files, classes, statements  and accessors are tracked. SonarQube also provides SQALE ranking that tells how well a particular class or a component is written. It also tells what is the complexity /function, /file, /class.
-
-In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
+We have used sonarQube for static analysis of code. Every detail of the code such as number of functions, lines, directories, files, classes, statements  and accessors are tracked. SonarQube also provides SQALE ranking that tells how well a particular class or a component is written. It also tells what is the complexity /function, /file, /class. In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0670/fb0cdb76-c6c1-11e4-8f3c-ec7d61cd89d0.png)
 
@@ -37,9 +39,6 @@ In addition to this, sonar also provides technical issues in the code. It will c
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0672/00f256b0-c6c2-11e4-84e2-796c39e354bc.png)
 
-We also used Cobertura for static analysis
-
-![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0673/9f5f5a14-c6c2-11e4-84a0-4eb5ad488c91.png)
 
 #### Task 4: Extended analysis
 
