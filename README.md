@@ -34,6 +34,10 @@ In addition to this, sonar also provides technical issues in the code. It will c
 
 ### Task 5: Reject commit based on testing and analysis result
 
+Cobertura Gate
+
+The Cobertura Jenkins Plugin allows us to reject a build if the code coverage falls beyond the mentioned threshold. The screenshot below describes the cobertura threshold used in this project that causes the build to fail due to low coverage.
+
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0668/2685b526-c6bc-11e4-85be-8b2b2bf2bbc0.png)
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0663/f0e0f62c-c6a4-11e4-9e46-5a195d54adc6.png)
