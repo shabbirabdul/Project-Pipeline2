@@ -37,8 +37,11 @@ Sonar identifies problematic parts of the code, classifies them into minor, crit
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0670/fb0cdb76-c6c1-11e4-8f3c-ec7d61cd89d0.png)
 
+It also captures number of methods, classes, packages, lines of code and other quantitative factors associated with the project.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0671/fe2183a2-c6c1-11e4-962f-ad661b00c8dd.png)
+
+It is undesirable to have complex methods in the project, Sonar identifies such complex methods in the project. It will also determine which methods have cyclomatic complexty. 
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0672/00f256b0-c6c2-11e4-84e2-796c39e354bc.png)
 
