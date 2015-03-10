@@ -49,6 +49,7 @@ It is undesirable to have complex methods in the project, Sonar identifies such 
 #### Task 4: Extended analysis
 
 We have developed a static analysis tool that generates the number of lines of comments, code and ratio of comments to code. We have integrated it with Jenkins build, during the build this plugin is run with the path to source code as an argument. The jar file scrapes through all Java files and counts number of comments and lines in the code. The following screen shot shows comment ratio captured during jenkins build.
+
 Github link for Comments Analyzer Tool: https://github.com/shabbirabdul/CommentsAnalyzer
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0665/f1f90d50-c6af-11e4-9320-9cab305c9a12.png)
@@ -59,7 +60,11 @@ Cobertura Gate
 
 The Cobertura Jenkins Plugin allows us to reject a build if the code coverage falls beyond the mentioned threshold. The screenshot below describes the cobertura threshold used in this project that causes the build to fail due to low coverage.
 
+The following screenshot specifies the threshold conditions set on this particular project.
+
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0668/2685b526-c6bc-11e4-85be-8b2b2bf2bbc0.png)
+
+The following screenshot captures the reason why a particular build failed. The threshold value is set to a particular value. The coverage for the project is less than the specified value. Hence, the build failed.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0663/f0e0f62c-c6a4-11e4-9e46-5a195d54adc6.png)
 
