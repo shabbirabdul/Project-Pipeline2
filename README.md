@@ -18,8 +18,6 @@ We have used sonarQube for static analysis of code. Every detail of the code suc
 
 In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
 
-![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
-
 #### Extended analysis
 
 ### Reject commit based on testing and analysis result
