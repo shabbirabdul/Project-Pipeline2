@@ -11,6 +11,8 @@ The Jenkins sonarQube plugin displays the code coverage report on the respective
 
 For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for class in the project.
 
+Test coverage before improvement:
+
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0667/23c959be-c6bc-11e4-9cb9-efc849e4f356.png)
 
 Report after improvement:
