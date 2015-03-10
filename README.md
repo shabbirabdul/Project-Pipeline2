@@ -3,21 +3,24 @@
 ### Test
 #### Task 1: Run Test Cases, Measure Code Coverage, Publish Reports 
 
-Junit test cases are run after mvn compile. We are using the sonarQube tool to generate code coverage report. Jenkins makes a call to mvn compile which automatically executes all the test cases before measuring the code coverage. 
-
-The Jenkins sonarQube plugin displays the code coverage report on the respective Jenkins Job Page.
+Junits are run by executing Maven compile and install tasks. We are using the Jacoco tool to generate code coverage report. Jacoco integrates with SonarQube to display coverage details. Jenkins makes a call to mvn compile which automatically executes all the test cases before measuring the code coverage. The Jenkins sonarQube plugin displays the code coverage report on the respective Jenkins Job Page.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
 
 #### Task 2: Improve Testing Coverage
 
-For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for class in the project.
+For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for every class in the project. The project under test is a small sample maven project created to measure code coverage metrics for this project. 
+Github link of the project: https://github.com/shabbirabdul/LilyPadCompass
 
 Test coverage before improvement:
+
+Few Java classes were added to the project and test coverage is checked.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0667/23c959be-c6bc-11e4-9cb9-efc849e4f356.png)
 
 Report after improvement:
+
+CodePro is a random test case generating tool, which when used with a project will generate test cases for every class in the project. The test classes generated have names ending with Test and all the test cases generated are available under src/test/java under the same project.
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0669/ad4711d0-c6bd-11e4-8d74-ceeb9cc66126.png)
 
