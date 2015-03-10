@@ -34,6 +34,10 @@ In addition to this, sonar also provides technical issues in the code. It will c
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0672/00f256b0-c6c2-11e4-84e2-796c39e354bc.png)
 
+We also used Cobertura for static analysis
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0673/9f5f5a14-c6c2-11e4-84a0-4eb5ad488c91.png)
+
 #### Task 4: Extended analysis
 
 We have developed a static analysis tool that generates the number of lines of comments, code and ratio of comments to code. We have integrated it with Jenkins build, during the build this plugin is run with the path to source code as an argument. The jar file scrapes through all Java files and counts number of comments and lines in the code. The following screen shot shows comment ratio captured during jenkins build.
