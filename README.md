@@ -31,6 +31,7 @@ In addition to this, sonar also provides technical issues in the code. It will c
 #### Task 4: Extended analysis
 
 We have developed a static analysis tool that generates the number of lines of comments, code and ratio of comments to code. We have integrated it with Jenkins build, during the build this plugin is run with the path to source code as an argument. The jar file scrapes through all Java files and counts number of comments and lines in the code. The following screen shot shows comment ratio captured during jenkins build.
+Github link for Comments Analyzer Tool: https://github.com/shabbirabdul/CommentsAnalyzer
 
 ![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0665/f1f90d50-c6af-11e4-9320-9cab305c9a12.png)
 
