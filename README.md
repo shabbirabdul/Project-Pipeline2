@@ -7,8 +7,6 @@ Junit test cases are run after mvn compile. We are using the sonarQube tool to g
 
 The Jenkins sonarQube plugin displays the code coverage report on the respective Jenkins Job Page.
 
-![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
-
 #### Improve Testing Coverage
 
 For increasing the test coverage we have used CodePro tool as an Eclipse plugin. CodePro generates test cases for class in the project.
@@ -20,7 +18,11 @@ We have used sonarQube for static analysis of code. Every detail of the code suc
 
 In addition to this, sonar also provides technical issues in the code. It will classify issues in the code to major, minor, critical and blockers. The major ones and the blockers are the ones to be taken care of.
 
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0664/f5eed594-c6a4-11e4-8e0a-45066c503894.png)
+
 #### Extended analysis
 
-### 
+### Reject commit based on testing and analysis result
+
+![alt text] (https://github.ncsu.edu/github-enterprise-assets/0000/2100/0000/0663/f0e0f62c-c6a4-11e4-9e46-5a195d54adc6.png)
 
